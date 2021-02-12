@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgb(134, 121, 207);
+}
+
+a {
+    position: relative;
+    margin: 10px;
+    padding: 20px 40px;
+    border: 2px solid rgb(134, 121, 207);
+    background-color: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border-radius: 30px;
+}
+
+a span{
+    display: block;
+}
+
+a:nth-child(1):hover {
+    bottom: 20px;
+}
+
+a:nth-child(2):hover {
+    top: 20px;
+}
